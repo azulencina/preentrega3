@@ -1,0 +1,59 @@
+.navbar {
+  background-color: goldenrod;
+}
+
+main section h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main section p {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  margin-bottom: 150px;
+}
+main section .imginicio {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  background-color: goldenrod;
+}
+
+@media (max-width: 426px) {
+  section div h1 {
+    font-size: medium;
+  }
+  section p {
+    font-size: smaller;
+  }
+}
+.logo {
+  width: 40px;
+}
+
+.divmsp {
+  display: flex;
+  justify-content: center;
+}
+
+.pmsp {
+  width: 60%;
+}
+
+.imgsmsp {
+  width: 400px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

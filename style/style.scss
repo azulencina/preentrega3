@@ -7,27 +7,13 @@
 
 @import "../media/media";
 
+@import "../pages.style/msp";
+
+@import "../pages.style/inicio";
 
 .logo{
     width: 40px;
 }
 
-.divmsp{
-    display: flex;
-    justify-content: center;
-}
-.pmsp{
-    width: 60%;
-}
-.imgsmsp{
-    width: 400px;
-    display: flex;
-    justify-content: end;
-    margin-bottom: 20px;
-}
-h2{
-    margin-top: 20px;
-    margin-left: 10px;
-}
 
 

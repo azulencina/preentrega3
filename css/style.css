@@ -31,29 +31,18 @@ main section .imginicio {
     font-size: smaller;
   }
 }
-.logo {
-  width: 40px;
-}
-
-.divmsp {
+.padreimg {
   display: flex;
   justify-content: center;
 }
 
-.pmsp {
-  width: 60%;
-}
-
-.imgsmsp {
-  width: 400px;
+.subtitle {
   display: flex;
-  justify-content: end;
-  margin-bottom: 20px;
+  justify-content: center;
 }
 
-h2 {
-  margin-top: 20px;
-  margin-left: 10px;
+.logo {
+  width: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

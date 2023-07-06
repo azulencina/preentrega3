@@ -1,48 +1,18 @@
-.navbar {
-  background-color: goldenrod;
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 2 |     @include flex();
+ *   |     ^^^^^^^^^^^^^^^
+ *   '
+ *   pages.style\_dermapen.scss 2:5  @import
+ *   style\style.scss 14:9           root stylesheet */
 
-main section h1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 2 \2502      @include flex();\d\a   \2502      ^^^^^^^^^^^^^^^\a   \2575 \a   pages.style\\_dermapen.scss 2:5  @import\a   style\\style.scss 14:9           root stylesheet";
 }
-main section p {
-  display: flex;
-  justify-content: center;
-  font-size: larger;
-  margin-bottom: 150px;
-}
-main section .imginicio {
-  display: flex;
-  justify-content: center;
-}
-
-.text-center {
-  background-color: goldenrod;
-}
-
-@media (max-width: 426px) {
-  section div h1 {
-    font-size: medium;
-  }
-  section p {
-    font-size: smaller;
-  }
-}
-.padreimg {
-  display: flex;
-  justify-content: center;
-}
-
-.subtitle {
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  width: 40px;
-}
-
-/*# sourceMappingURL=style.css.map */

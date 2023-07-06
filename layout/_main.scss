@@ -1,19 +1,17 @@
 main section{
     h1 {
-      display: flex;
-      justify-content: center;
       margin-top: 20px;
       margin-bottom: 20px;
+      @include flex();
   
   } 
     p {
-      display: flex;
-      justify-content: center;
       font-size: larger;
       margin-bottom: 150px;
+      @include flex();
+
   }
   .imginicio{
-      display: flex;
-      justify-content: center;
+    @include flex();
   }
   }
